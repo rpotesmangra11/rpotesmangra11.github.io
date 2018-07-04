@@ -1,0 +1,163 @@
+html,
+body,
+h2 {
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  background: url(../images/escheresque.png) repeat;
+  width: 100%;
+  text-align: center;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  border-bottom: 5px solid #cccccc;
+  background-color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-height: 100px;
+  padding-bottom: 5x;
+  overflow: hidden;
+}
+
+#centerHeader {
+  width: 960px;
+  margin: 0px auto;
+}
+
+#aboutMe {
+  color: #4aaaa5;
+  text-align: left;
+  margin: 25px 0;
+}
+
+#name {
+  background-color: #4aaaa5;
+  color: white;
+  width: 300px;
+  float: left;
+  /* margin-left: 80px; */
+  height: 120px;
+  padding-top: 40px;
+}
+
+nav {
+  float: right;
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #777777;
+}
+
+#profileImage {
+  float: left;
+  padding: 5px;
+}
+
+section {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  clear: both;
+  margin: 50px auto 100px auto;
+  padding: 10px 20px;
+  width: 920px;
+  flex: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#profileImage {
+  float: left;
+  padding-right: 10px;
+}
+
+#foot {
+  border-top: 5px solid #4aaaa5;
+  background-color: #666666;
+  min-height: 50px;
+  color: white;
+  padding-top: 20px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+#formHeader {
+  color: #4aaaa5;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+#message{
+  min-height: 250px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+img.resize {
+  max-width: 40%;
+  max-height: 40%;
+  padding: 10px 20px;
+}
+
+#portPics {
+  padding: 20px 20px;
+}
+
+.aboutMeP {
+  margin: 30px 10px;
+  line-height: 25px;
+}
